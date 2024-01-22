@@ -1,0 +1,97 @@
+img {
+	width: 100%;
+	height: 100%x;
+	margin: 0 0 0 0px;
+}
+
+body {
+	font-family:Arial;
+	font-size: 16px;
+	padding: 0;
+	margin:0 0 0 0px;
+}
+.wrap {
+	margin: 0px;
+  	width: 100%;
+} 
+nav.menu ul {
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.55);
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	padding:0;
+	width: 100%;
+	margin:0 0 0 0;
+	background: black;
+
+}
+nav.menu ul li {
+	width: 150px;
+	text-align: center;
+	margin-left: 150px;
+	float: left;
+} 
+nav.menu ul a {
+	padding:15px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background: Grey;
+}
+
+div#Testimonial p{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+	margin: 0 0 0 0px;
+
+}
+
+#photos {
+	font-color: grey;
+}
+
+body {
+  font-family: Arial;
+  font-weight: 300;
+}
+
+
+
+@media screen and (max-width: 960px) {
+	*.wrap {
+		width: 100%;
+		
+	}
+	nav.menu ul {
+		width: 100%;
+	}
+	nav.menu ul {
+		
+	}
+	nav.menu ul li {
+		
+		
+	}
+	nav.menu ul a {
+		padding:20px;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 460px) {
+/*	nav.menu ul a {
+		padding:15px;
+		font-size: 14px;
+	}	*/	
+}
